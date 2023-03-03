@@ -1,0 +1,159 @@
+html,
+body {
+  margin: 0px;
+  background-color: rgb(250, 248, 114);
+  height: 100%;
+}
+
+#container{
+    background-color: rgb(250, 248, 114);
+    height: 100%;
+}
+
+#portal{
+    background-color:rgb(250, 248, 114);
+    width: 1030px;
+    max-width: 1030px;
+    height: 768px;
+    max-height: 768px;
+    margin: auto;
+    padding: 10px;
+}
+
+div[id^="portal-"]{
+    background-color: rgb(233, 14, 14);
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.header-content{
+    background-color: rgb(252, 248, 5);    
+    height: 160px;
+}
+
+div[id^="header-menu-"]{
+    display: inline-block;
+    color: white;
+    width: 500;
+    margin: 0px 50px;
+}
+
+.menu.link{
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50px;
+    color: black;
+    
+}
+
+#header-menu-logo{
+    width: 240px;
+    width: 220px;
+    height: 140px;
+    margin-left: 10px;
+    position: relative;
+}
+
+#logo-content{
+    width: 240px;
+    height: 140px;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 70px 0 0 0;
+    background-image: url(logo-pagina.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#row{
+    margin: auto;
+}
+
+#row:nth-child(3) .item{
+    margin-bottom: 20px;
+}
+
+.item{
+    width: 300px;
+    height: 460px;
+    max-width: 300px;
+    max-height: 460px;
+    margin: 20px 20px 0 0;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(252, 248, 5);
+}
+
+#item-list{
+    margin: auto;
+    background-color: white;
+    padding-left: 30px;
+}
+
+#prodcut{
+    padding: 0px 30px 0 0;
+}
+
+.product-title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    color: rgb(233, 14, 14);
+}
+
+.product-content-important{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: small;
+}
+
+.product-content{
+    font-size: small;
+    font-weight: 500;
+    margin: 30px 10px 0px 10px;
+
+}
+
+img{
+    height: 190px;
+    max-height: 190px;
+    width: 240px;
+    max-width: 240px;
+    margin-top: 7px;
+}
+
+#portal-footer{
+    margin: 0;
+    padding: auto;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+
+#footer-menu-container{
+    margin: auto;
+    position: relative;
+    font-size:large;
+}
+
+.foorter.link{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    margin: 0 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#header-menu-container{
+    bottom: 60.5px;
+    position: relative;
+}
